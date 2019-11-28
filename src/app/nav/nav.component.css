@@ -1,0 +1,11 @@
+a{text-decoration: none;}
+nav{font-family: 'Raleway', sans-serif;
+    background-color: rgb(40,83,106); 
+    color:white;padding-top:1%;
+padding-bottom:1%;width: 100%;}
+ul{list-style: none;display: flex;}
+li{padding-right: 3%;}
+li:hover{background-color: rgb(122,162,36);
+     padding:0.25% ;
+    color:black; border-radius: 5px;}
+   
