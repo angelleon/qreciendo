@@ -9,6 +9,7 @@ import { SuscripcionComponent } from './suscripcion/suscripcion.component';
 import { ProgresoComponent } from './progreso/progreso.component';
 import { NavComponent } from './nav/nav.component';
 import { ComentariosComponent } from './comentarios/comentarios.component';
+import { CarruselComponent } from './carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ComentariosComponent } from './comentarios/comentarios.component';
     NavComponent,
     ProgresoComponent,
     ProyectoComponent,
-    ComentariosComponent
+    ComentariosComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule
