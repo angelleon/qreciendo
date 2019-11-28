@@ -1,0 +1,15 @@
+.formulario{
+    position: fixed;
+    right: 0;
+    top: 60%;
+    max-width: 30%;
+    background: #ff6600;
+    display: grid;
+    grid-template-columns: 95%; 
+    border-radius: 1rem 0 0 1rem;    
+    box-sizing: border-box;    
+}
+.formulario:hover{    padding-right: 5%;}
+.cliente{   padding: 5%;}
+.cliente input{    float: right;}
+.enviar{   margin-left: 85%;}
