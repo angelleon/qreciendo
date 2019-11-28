@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./progreso.component.css']
 })
 export class ProgresoComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {
