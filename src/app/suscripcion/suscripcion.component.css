@@ -2,8 +2,8 @@
     position: fixed;
     right: 0;
     top: 60%;
-    max-width: 30%;
-    background: #ff6600;
+    max-width: 40%;
+    background: #B3137A;
     display: grid;
     grid-template-columns: 95%; 
     border-radius: 1rem 0 0 1rem;    
@@ -12,4 +12,4 @@
 .formulario:hover{    padding-right: 5%;}
 .cliente{   padding: 5%;}
 .cliente input{    float: right;}
-.enviar{   margin-left: 85%;}
+.enviar{   margin-left: 85%; border-radius: 10px; background-color:black;color:white}
