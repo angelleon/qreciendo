@@ -1,0 +1,14 @@
+footer{
+    background: #2e2e3a;
+    padding-top:3%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:3%;
+    color:white;
+    font-size: 20PX;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:white;
+}

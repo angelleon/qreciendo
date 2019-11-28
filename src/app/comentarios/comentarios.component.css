@@ -1,0 +1,12 @@
+form{
+    background-color:rgba(66,109,177,0.50);
+    max-width: 100%;
+    float:left;
+}
+textarea{
+    width:70%;
+}
+input{
+    background-color: #57a639;
+    border-radius: 5px;
+}
