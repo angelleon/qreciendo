@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./proyecto.component.css']
 })
 export class ProyectoComponent implements OnInit {
-
+  title_proyect = "Repavimentación en Carrillo ";
   constructor() { }
 
   ngOnInit() {

@@ -7,6 +7,9 @@ padding-bottom:1%;width: 100%;}
 ul{list-style: none;display: flex;}
 li{padding-right: 15%;}
 li:hover{background-color: rgb(122,162,36);
-     padding:0.25% ;
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 15;
     color:black; border-radius: 5px;}
    
