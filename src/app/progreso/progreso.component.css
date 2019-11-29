@@ -3,6 +3,9 @@
     background: #2e2e3a;
     max-width: 100%;
   }
+  h3{
+    color: white;
+  }
   .container {
     margin: 200px auto;
     width: 400px;

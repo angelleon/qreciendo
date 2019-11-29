@@ -1,11 +1,15 @@
+p{
+    color:white;
+}
 .comentarios{
-    background-color:rgba(66,109,177,0.50);
+    background-color:rgba(42, 45, 49, 0.5);
     border-radius: 15px;
     width: 100%;
     float:left;
+    padding:5%;
 }
 textarea{
-    width:80%;
+    width:70%;
 }
 input{
     background-color: #57a639;
