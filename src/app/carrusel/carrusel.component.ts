@@ -6,17 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./carrusel.component.css']
 })
 export class CarruselComponent implements OnInit {
-  url_1 = ""
-  url_2 = ""
-  url_3 = ""
+  url_1 = "qreciendo/proyectos/proyecto_id";
+  url_2 = "qreciendo/proyectos/proyecto_id";
+  url_3 = "qreciendo/proyectos/proyecto_id";
 
-  titulo_1 = ""
-  titulo_2 = ""
-  titulo_3 = ""
+  titulo_2 = "Rotura de pavimento";
+  titulo_3 = "Relleno necesario";
+  tiempo_2 = " 3 semanas";
+  tiempo_3 = " 5 semanas"  ;
   
-  url_foto_1 = ""
-  url_foto_2 = ""
-  url_foto_3 = ""
+  
+  url_foto_3 = "assets/reparacion001.jpg";
+  url_foto_2 = "assets/reparacion005.jpg";
+
+
 
   constructor() { }
 
