@@ -6,8 +6,8 @@ cors = require('cors'),
 http = require('http'),
 path = require('path');
  
-let comentarioRoute = require('./routes/comentario');
-let util = require('./Utilities/util');
+let comentarioRoute = require('./route/comentario');
+let util = require('./util/util');
  
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false }));
