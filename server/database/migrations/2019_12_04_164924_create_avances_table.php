@@ -14,7 +14,7 @@ class CreateAvancesTable extends Migration
     public function up()
     {
         Schema::create('Avance', function (Blueprint $table) {
-            $table->bigInt
+            //$table->bigInt
             $table->timestamps();
         });
     }
