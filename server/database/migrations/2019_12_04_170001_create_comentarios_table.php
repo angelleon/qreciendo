@@ -13,8 +13,11 @@ class CreateComentariosTable extends Migration
      */
     public function up()
     {
-        Schema::create('comentarios', function (Blueprint $table) {
-            $table->bigIncrements('id');
+        Schema::create('Comentario', function (Blueprint $table) {
+            $table->bigIncrements('idCometario');
+            $table->bigInteger('idProyecto');
+            $table->bigInteger('idUsuario');
+            $table->string('texto', 280);
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ class CreateComentariosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('comentarios');
+        Schema::dropIfExists('Comentario');
     }
 }

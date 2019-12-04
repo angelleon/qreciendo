@@ -14,7 +14,10 @@ class CreateAvancesTable extends Migration
     public function up()
     {
         Schema::create('Avance', function (Blueprint $table) {
-            //$table->bigInt
+            $table->bigInteger('idProyecto');
+            $table->date('fecha');
+            $table->boolean('finalizaProyecto');
+            $table->string('nombreFoto', 256);
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ class CreateAvancesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('avances');
+        Schema::dropIfExists('Avance');
     }
 }

@@ -13,8 +13,11 @@ class CreateNotificacionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('notificacions', function (Blueprint $table) {
-            $table->bigIncrements('id');
+        Schema::create('Notificacion', function (Blueprint $table) {
+            $table->bigIncrements('idNotificacion');
+            $table->boolean('activa');
+            $table->bigInteger('idProyecto');
+            $table->bigInteger('idUsuario');
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ class CreateNotificacionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('notificacions');
+        Schema::dropIfExists('Notificacion');
     }
 }

@@ -15,7 +15,11 @@ class CreateTableProyecto extends Migration
     {
         Schema::create('Proyecto', function (Blueprint $table) {
             $table->bigIncrements('idProyecto');
-            $table->
+            $table->string('nombre', 45);
+            $table->string('colonia', 45);
+            $table->string('delegacion', 45);
+            $table->boolean('activo');
+            $table->boolean('fianlizado');
             $table->timestamps();
         });
     }
@@ -27,6 +31,6 @@ class CreateTableProyecto extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_proyecto');
+        Schema::dropIfExists('Proyecto');
     }
 }
